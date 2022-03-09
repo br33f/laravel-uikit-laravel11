@@ -3,9 +3,9 @@
 @section('content')
     <div class="uk-section uk-section-small uk-section-muted">
         <div class="uk-container">
-            <h1 class="uk-heading-divider">UIkit starter template for Laravel 8</h1>
+            <h1 class="uk-heading-divider">UIkit starter template for Laravel 9</h1>
             <p>
-                Congratulations, you've successfully installed the UIkit starter template for Laravel 8. Have a browse
+                Congratulations, you've successfully installed the UIkit starter template for Laravel 9. Have a browse
                 through the links below for inspiration on how to work with Laravel, UIkit, and Vue.js. Happy coding!
             </p>
             <div class="uk-grid" data-uk-grid data-uk-height-match="target:.uk-card">

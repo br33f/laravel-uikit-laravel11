@@ -1,6 +1,6 @@
 {
     "name": "torrix/laravel-uikit",
-    "description": "UIkit starter template for Laravel 8",
+    "description": "UIkit starter template for Laravel 9",
     "minimum-stability": "stable",
     "keywords": [
         "laravel",
