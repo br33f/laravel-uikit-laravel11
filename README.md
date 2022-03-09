@@ -1,9 +1,9 @@
-# UIkit starter template for Laravel 8
+# UIkit starter template for Laravel 9
 ## Including authentication scaffolding for Laravel Fortify
 
 ![](https://torrix.uk/laravel-uikit.jpg)
 
-Out of the box, Laravel 8 ships with a default welcome template built with 
+Out of the box, Laravel 9 ships with a default welcome template built with 
 [Tailwind CSS](https://tailwindcss.com). On top of the base framework,
 [Laravel JetStream](https://jetstream.laravel.com/) provides two user 
 interfaces (your choice of Laravel Livewire or InertiaJS) for login and 
@@ -52,10 +52,10 @@ on how to deploy the project on a live system.
 
 ### Prerequisites
 
-To begin, you'll need a **fresh** install of Laravel 8. **Adding this to an 
+To begin, you'll need a **fresh** install of Laravel 9. **Adding this to an 
 existing project is not recommended and may cause issues**. For full 
 instructions on installing Laravel, refer to the 
-[Laravel installation docs](https://laravel.com/docs/master/installation), but 
+[Laravel installation docs](https://laravel.com/docs/9.x/installation), but 
 something like the following will get you up and running:
 
 ```
@@ -87,7 +87,7 @@ configure the file `.env` with the correct credentials for it.
 ```
 composer require laravel/fortify
 
-php artisan vendor:publish --provider="Laravel\\Fortify\\FortifyServiceProvider"
+php artisan vendor:publish --provider="Laravel\Fortify\FortifyServiceProvider"
 
 php artisan migrate
 ```
@@ -155,7 +155,7 @@ that you'll be delighted to build your next Laravel project with!
 * [Laravel](https://laravel.com/) - The awesome PHP framework that makes all 
 of this worthwhile.
 * [Laravel Fortify](https://github.com/laravel/fortify) - The backend Laravel 
-8 uses to power its authentication system.
+9 uses to power its authentication system.
 
 ## Author
 

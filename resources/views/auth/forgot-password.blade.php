@@ -7,7 +7,7 @@
             <form method="POST" action="{{ route('password.email') }}" class="uk-form-stacked">
                 @csrf
                 @if (session('status'))
-                    <div class="alert alert-success" role="alert">
+                    <div data-uk-alert class="uk-alert uk-alert-success" role="alert">
                         {{ session('status') }}
                     </div>
                 @endif
