@@ -1,9 +1,9 @@
-# UIkit starter template for Laravel 9
+# UIkit starter template for Laravel
 ## Including authentication scaffolding for Laravel Fortify
 
 ![](https://torrix.uk/laravel-uikit.jpg)
 
-Out of the box, Laravel 9 ships with a default welcome template built with 
+Out of the box, Laravel ships with a default welcome template built with 
 [Tailwind CSS](https://tailwindcss.com). On top of the base framework,
 [Laravel JetStream](https://jetstream.laravel.com/) provides two user 
 interfaces (your choice of Laravel Livewire or InertiaJS) for login and 
@@ -52,7 +52,7 @@ on how to deploy the project on a live system.
 
 ### Prerequisites
 
-To begin, you'll need a **fresh** install of Laravel 9. **Adding this to an 
+To begin, you'll need a **fresh** install of Laravel 10+. **Adding this to an 
 existing project is not recommended and may cause issues**. For full 
 instructions on installing Laravel, refer to the 
 [Laravel installation docs](https://laravel.com/docs/9.x/installation), but 

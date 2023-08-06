@@ -23,7 +23,8 @@ class LaravelUikitServiceProvider extends ServiceProvider
 
         $this->publishes(
             [
-                __DIR__ . '/../webpack.mix.js'                    => 'webpack.mix.js',
+                __DIR__ . '/../package.json'                      => 'package.json',
+                __DIR__ . '/../vite.config.js'                    => 'vite.config.js',
                 __DIR__ . '/../resources/js'                      => resource_path('js'),
                 __DIR__ . '/../resources/sass'                    => resource_path('sass'),
                 __DIR__ . '/../resources/views/welcome.blade.php' => resource_path('views/welcome.blade.php'),
