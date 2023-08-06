@@ -10,7 +10,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @vite(['resources/sass/app.scss'])
 </head>
 <body>
 <div id="app">
@@ -119,6 +119,6 @@
         </div>
     </footer>
 </div>
-<script src="{{ asset('js/app.js') }}" defer></script>
+@vite(['resources/js/app.js'])
 </body>
 </html>
