@@ -1,7 +1,7 @@
 # UIkit starter template for Laravel
 ## Including authentication scaffolding for Laravel Fortify
 
-![](https://torrix.uk/laravel-uikit.jpg)
+![A screenshot of the UIkit starter template for Laravel](/screenshot.jpg?raw=true)
 
 Out of the box, Laravel ships with a default welcome template built with 
 [Tailwind CSS](https://tailwindcss.com). On top of the base framework,
